@@ -1,0 +1,13 @@
+.s-nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    background-color:  rgba(172, 212, 255, 0.5);
+}
+
+.s-nav-left{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}

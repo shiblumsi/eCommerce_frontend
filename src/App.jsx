@@ -1,11 +1,11 @@
+import Navbar from '../src/components/navbar/Navbar'
 
-import { Route, Routes } from 'react-router-dom'
-import { useState } from 'react'
 function App() {
 
   return (
     <>
       <div className="app">
+        <Navbar /> hi
       </div>
     </>
   );

@@ -1,0 +1,38 @@
+.m-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgba(172, 212, 255, 0.5);
+}
+
+.m-right-nav{
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.s-input{
+  width: 500px;
+  padding: 10px 15px;
+  border: 2px solid #ddd;
+  border-radius: 15px ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-i-field{
+    width: 450px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background: none;
+    transition: box-shadow 0.3s;
+}
+
+.s-button{
+    padding: 0px 7px;
+    background-color: #cef1de;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
