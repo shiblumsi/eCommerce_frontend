@@ -1,11 +1,17 @@
-import Navbar from '../src/components/navbar/Navbar'
+import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
+import Home from './pages/home/Home';
+
+
 
 function App() {
 
   return (
     <>
       <div className="app">
-        <Navbar /> hi
+        <Navbar />
+        <Home />
+        <Footer />
       </div>
     </>
   );
